@@ -1,7 +1,7 @@
-# JSRecon: Sensitive Information Discovery Tool for Bug Bounty Hunters and Developers
+# JSRegRecon: Sensitive Information Discovery Tool for Bug Bounty Hunters and Developers
 
 ## Introduction
-JSRecon is an open-source tool designed to assist bug bounty hunters and developers in identifying sensitive information leaks within JavaScript (JS) files. This tool enhances the security of web applications by proactively detecting potential vulnerabilities that could lead to security breaches.
+JsRegRecon is an open-source tool designed to assist bug bounty hunters and developers in identifying sensitive information leaks within JavaScript (JS) files. This tool enhances the security of web applications by proactively detecting potential vulnerabilities that could lead to security breaches.
 
 ## Key Features
 - **Efficient Detection:** Utilizes a customizable regex pattern to detect a wide range of sensitive information leaks in JS files.
@@ -11,14 +11,14 @@ JSRecon is an open-source tool designed to assist bug bounty hunters and develop
 - **Bug Bounty and Development:** Useful for bug bounty hunters and developers to uncover vulnerabilities and rectify leaks.
 
 ## Getting Started
-1. Clone the JSRecon repository from GitHub.
+1. Clone the JsRegRecon repository from GitHub.
 2. Install required Python packages with `pip install -r requirements.txt`.
 3. Prepare an input file (e.g., `js_links.txt`) with URLs of JS files to be scanned.
 
 ## Usage
 Run the tool with the following command:
 
-    python jsrecon.py js_links.txt
+    python jsreg.py js_links.txt
     
 ### Output
 ````
@@ -38,13 +38,13 @@ Pattern matched: (combined_regex_pattern)
 - Wider Coverage: Extensive regex pattern for thorough analysis.
 
 ## Benefits for Developers
-- Early Detection: Integrating JSRecon in development identifies leaks before production.
+- Early Detection: Integrating JsRegRecon in development identifies leaks before production.
 - Security by Design: Promotes security-first mindset among developers.
 - Streamlined Review: Periodically scan codebase for sensitive leaks.
 
 ## Conclusion
-JSRecon is a crucial tool for bug bounty hunters and developers, contributing to improved web application security. It automates sensitive information discovery in JS files, identifying vulnerabilities and enhancing overall security.
+JsRegRecon is a crucial tool for bug bounty hunters and developers, contributing to improved web application security. It automates sensitive information discovery in JS files, identifying vulnerabilities and enhancing overall security.
 
-**Project Link:** [GitHub - JSRecon](https://github.com/syedalizain033/jsregrecon)
+**Project Link:** [GitHub - JsRegRecon](https://github.com/syedalizain033/jsregrecon)
 
-**Disclaimer:** JSRecon is intended for ethical security testing and research. Use responsibly, follow proper disclosure practices, and obtain authorization before testing on any web application. Authors and contributors are not liable for misuse or illegal activities.
+**Disclaimer:** JsRegRecon is intended for ethical security testing and research. Use responsibly, follow proper disclosure practices, and obtain authorization before testing on any web application. Authors and contributors are not liable for misuse or illegal activities.
